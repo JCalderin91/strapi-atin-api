@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "academies",
+  "info": {
+    "singularName": "academy",
+    "pluralName": "academies",
+    "displayName": "academy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

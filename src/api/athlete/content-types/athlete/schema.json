@@ -4,19 +4,28 @@
   "info": {
     "singularName": "athlete",
     "pluralName": "athletes",
-    "displayName": "Athlete"
+    "displayName": "Athlete",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "first_name": {
       "type": "string",
       "required": true
     },
     "born_date": {
       "type": "date"
+    },
+    "last_name": {
+      "type": "string"
+    },
+    "academy": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::academy.academy"
     }
   }
 }
